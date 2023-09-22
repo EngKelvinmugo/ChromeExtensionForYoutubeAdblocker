@@ -1,0 +1,21 @@
+{
+    "manifest_version":2,
+
+
+    "name":"Mugo Youtube Adblocker",
+    "version":"1.0.0",
+    "description":"Mugo Youtube Adblocker is used to block all ads on youtube",
+    
+    
+    "contentscripts":[{
+        "js":["script.js"],
+        "run_at":"document_idle",
+        "matches":"<all_urls>"
+    }],
+
+
+    "permissions":[
+        "tabs",
+    "activeTabs"
+    ]
+}
